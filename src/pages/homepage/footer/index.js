@@ -44,36 +44,26 @@ const Footer = () => {
       <Stack as="ul" mb="16px" direction="row" spacing={4}>
         <SocialLink
           name="LinkedIn"
-          href="https://www.linkedin.com/in/greg-ogun/"
+          href="https://www.linkedin.com/in/nandini-upadhayay-851799247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           icon={IconLinkedin}
         />
         <SocialLink
-          name="Github"
-          href="https://github.com/gregogun"
+          name="Mail"
+          href="mailto:nandiniupadhayay6@gmail.com"
           icon={IconGithubAlt}
         />
         <SocialLink
           name="Twitter"
-          href="https://twitter.com/gregogun"
+          href="https://www.instagram.com/nandini.u_/"
           icon={IconTwitter}
         />
-        <SocialLink
-          name="Youtube"
-          href="https://www.youtube.com/channel/UCQDUHOvgodaEqjHm9Ihn87w"
-          icon={IconYoutube}
-        />
-        <SocialLink
-          name="Twitch"
-          href="https://www.twitch.tv/gregogun"
-          icon={IconTwitch}
-        />
-        <SocialLink name="Dev" href="https://dev.to/gregogun" icon={IconDev} />
+        
       </Stack>
-      <Box display="grid" placeItems="center">
+      {/* <Box display="grid" placeItems="center">
         <Link href="https://github.com/gregogun">
           Designed & Coded by Greg Ogun
         </Link>
-      </Box>
+      </Box> */}
     </Box>
   );
 };

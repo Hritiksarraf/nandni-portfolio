@@ -7,6 +7,8 @@ import {
   FaYoutube,
   FaTwitch,
   FaGithub,
+  FaInstagram,
+  FaEnvelope
 } from "react-icons/fa";
 
 const IconBase = ({ icon, ...props }) => {
@@ -31,11 +33,11 @@ export const IconLinkedin = () => {
 };
 
 export const IconGithubAlt = () => {
-  return <IconBase icon={FaGithub} />;
+  return <IconBase icon={FaEnvelope} />;
 };
 
 export const IconTwitter = () => {
-  return <IconBase icon={FaTwitter} />;
+  return <IconBase icon={FaInstagram} />;
 };
 
 export const IconYoutube = () => {

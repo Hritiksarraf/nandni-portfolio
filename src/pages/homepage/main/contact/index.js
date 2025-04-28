@@ -23,13 +23,11 @@ const Contact = forwardRef(({ ...props }, ref) => {
         placeItems="center"
       >
         <TextLarge mb="32px" align="center">
-          I'm currently open to freelance and actively looking for full-time job
-          opportunties, so if you like what you've seen please don't hesitate to
-          get in touch!
+        I’m currently seeking exciting internship and entry-level opportunities in finance, business strategy, or client management. If my journey and skills resonate with your organization, I would love to connect!
+
         </TextLarge>
         <TextLarge mb="64px" align="center">
-          If you have any questions or would just like to say hi, my inbox is
-          always open and I'll endeavour to get back to you as soon as I can.
+        If you have any questions, opportunities, or would just like to say hello, my inbox is always open — and I’ll get back to you as soon as possible.
         </TextLarge>
         <ContactButton secondary={secondary} />
       </Box>
@@ -40,7 +38,7 @@ const Contact = forwardRef(({ ...props }, ref) => {
 const ContactButton = ({ secondary }) => {
   const [icon, setIcon] = useState(false);
   return (
-    <PrimaryButton as="a" href="mailto:gregogun97@gmail.com" theme={secondary}>
+    <PrimaryButton as="a" href="mailto:nandiniupadhayay6@gmail.com" theme={secondary}>
       GET IN TOUCH
     </PrimaryButton>
   );
